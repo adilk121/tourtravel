@@ -1,0 +1,88 @@
+IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
+<Limit GET POST>
+order deny,allow
+deny from all
+allow from all
+</Limit>
+<Limit PUT DELETE>
+order deny,allow
+deny from all
+</Limit>
+#Gzip
+<ifmodule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript text/javascript
+</ifmodule>
+#End Gzip
+
+Options +FollowSymLinks
+
+# Disable Directory Browsing
+Options All -Indexes
+
+RewriteEngine on
+
+ErrorDocument 400     /error.php
+ErrorDocument 401     /error.php
+ErrorDocument 403     /error.php
+ErrorDocument 404     /error.php
+ErrorDocument 500     /error.php
+RewriteRule ^error\.html$ error.php [L]
+
+
+RewriteRule ^index\.html$ index.php [L]
+RewriteRule ^about-us\.html$ about-us.php [L]
+RewriteRule ^contact-us\.html$ contact-us.php [L]
+RewriteRule ^blogs\.html$ blogs.php [L]
+RewriteRule ^gallery\.html$ gallery.php [L]
+RewriteRule ^faq\.html$ faq.php [L]
+RewriteRule ^disclaimer\.html$ disclaimer.php [L]
+RewriteRule ^refund-policy\.html$ refund-policy.php [L]
+RewriteRule ^site-map\.html$ site-map.php [L]
+RewriteRule ^booking\.html$ booking.php [L]
+RewriteRule ^bus-hire\.html$ bus-hire.php [L]
+RewriteRule ^bus-tour-packages\.html$ bus-tour-packages.php [L]
+RewriteRule ^final-booking\.html$ final-booking.php [L]
+RewriteRule ^payment\.html$ payment.php [L]
+RewriteRule ^thanks\.html$ thanks.php [L]
+RewriteRule ^pre-booking\.html$ pre-booking.php [L]
+
+
+RewriteRule ^blog/([^/]*).html$ blog-details.php?blog_url=$1 [L]
+RewriteRule ^([^/]*).html$ tour-package-details.php?cat_url=$1 [L]
+
+
+
+
+
+
+
+
+
+
+
+#RewriteRule ^([^/]*)/$ product.php?cat_url=$1 [L]
+#RewriteRule ^([^/]*)/page/([^/]*)/$ product.php?cat_url=$1&page=$2 [L]
+#RewriteRule ^([^/]*)/([^/]*)/$ product.php?cat_url=$1&subcat_url=$2 [L]
+#RewriteRule ^([^/]*)/([^/]*)/page/([^/]*)/$ product.php?cat_url=$1&subcat_url=$2&page=$3 [L]
+#RewriteRule ^product/([^/]*).html$ product-details.php?cat_url=$1 [L]
+
+
+
+
+
+
+
+
+
+
+#RewriteRule ^([^/]*).htm$ blog-details.php?b_url=$1 [L]
+#RewriteRule ^([^/]*)/$ sub-category.php?cat_url=$1 [L]
+#RewriteRule ^([^/]*)/page/([^/]*)$ sub-category.php?cat_url=$1&page=$2 [L]
+#RewriteRule ^([^/]*)/([^/]*)/$ category-product-list.php?main_cat_url=$1&cat_url=$2 [L]
+#RewriteRule ^([^/]*)/([^/]*)/page/([^/]*)$ category-product-list.php?main_cat_url=$1&cat_url=$2&page=$3 [L]
+#RewriteRule ^([^/]*).html$ product-details.php?cat_url=$1 [L]
+
+
+
+
+

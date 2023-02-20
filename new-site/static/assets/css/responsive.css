@@ -1,0 +1,983 @@
+/*================ Normal desktop :992px.==================== */
+
+@media (min-width: 992px) and (max-width: 1169px) {
+	.mainmenu ul li a {
+		font-size: 14px;
+		padding: 30px 7px
+	}
+	.tour-details a {
+		font-size: 13px;
+		padding: 7px 10px
+	}
+	.tour-desc-top h3 {
+		font-size: 20px
+	}
+	.sidebar-action a {
+		text-transform: capitalize;
+		font-size: 13px
+	}
+	.login-box {
+		width: 50%
+	}
+	.ah-headline {
+		font-size: 65px;
+		line-height: 65px
+	}
+	.banner-bottom-img {
+		bottom: -70px
+	}
+}
+
+
+/*================ Tablet desktop :768px.==================*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.peulis-responsive-menu {
+		display: block
+	}
+	.mainmenu {
+		display: none
+	}
+	.header-top-area {
+		padding: 10px 0
+	}
+	.header_inn {
+		padding: 0;
+		margin-top: 0
+	}
+	.header_action {
+		display: none
+	}
+	.mainmenu ul li a {
+		padding: 15px
+	}
+	.site-logo {
+		width: 25%;
+		text-align: center;
+		position: relative;
+		z-index: 99999
+	}
+	.site-logo img {
+		width: 100%;
+		margin: 15px 0;
+	}
+	.peulis-slider-area {
+		margin-top: 0
+	}
+	.banner-welcome h4 {
+		font-size: 45px
+	}
+	.ah-headline {
+		font-size: 45px;
+		line-height: 50px
+	}
+	.typed-static:after {
+		width: 12px;
+		height: 12px
+	}
+	.banner-welcome {
+		width: 100%
+	}
+	.banner-area {
+		top: 15%;
+		left: 0;
+		width: 100%
+	}
+	.banner-bottom-img {
+		bottom: -55px
+	}
+	.slider-container {
+		height: 55vh
+	}
+	.pad-right,
+	.pad-left {
+		padding-right: 15px
+	}
+	.single-promo-package {
+		margin: 30px auto 0;
+		width: 75%;
+	}
+	.single-popular-tour {
+		width: 75%;
+		margin: 30px auto 0
+	}
+	.awesome-tour-box {
+		padding-left: 50px
+	}
+	.awesome-tour-box p {
+		line-height: 30px
+	}
+	.awesome-tour-box h2 {
+		font-size: 35px
+	}
+	.discount-box img.discount_vector {
+		display: none
+	}
+	#inner {
+		width: 100%;
+		text-align: center
+	}
+	.single-choose {
+		width: 75%;
+		margin: 30px auto 0
+	}
+	.single-blog-item {
+		width: 75%;
+		margin: 30px auto 0
+	}
+	.single-footer {
+		margin: 10px 0
+	}
+	.peulis-breadcrumb-area {
+		margin-top: 0;
+		padding-top: 50px;
+		padding-bottom: 60px;
+	}
+	.breadcrumb-box h2 {
+		font-size: 40px;
+		line-height: 50px
+	}
+	.peulis-slide .owl-nav {
+		display: none
+	}
+	.about-page-left h2 {
+		font-size: 35px
+	}
+	.about-page-right {
+		margin-top: 30px;
+	}
+	.about-page-right img {
+		width: 75%;
+		margin: 0 auto;
+		display: block
+	}
+	.story-box h2 {
+		font-size: 35px
+	}
+	.site-heading {
+		width: 75%
+	}
+	.single-guide,
+	.gallery-item {
+		margin: 30px auto 0;
+		width: 75%;
+	}
+	.site-heading h4 {
+		font-size: 35px
+	}
+	.site-heading h2 {
+		font-size: 35px
+	}
+	.faqs-page-right {
+		margin-top: 30px
+	}
+	.faqs-page-top {
+		width: 100%
+	}
+	.login-box {
+		width: 75%
+	}
+	.peulis-destination-page .single-destination {
+		width: 75%;
+		margin: 30px auto 0
+	}
+	.destination-details-left {
+		width: 75%;
+		margin: 0 auto 50px
+	}
+	.sidebar-widget {
+		width: 75%;
+		margin: 0 auto
+	}
+	.property-page-heading {
+		width: 75%;
+		margin: 0 auto
+	}
+	.tour-page-right {
+		margin-top: 50px
+	}
+	.tour-details-left {
+		width: 75%;
+		margin: 0 auto 50px;
+	}
+	.blog-page-left .pagination-box-row {
+		width: 75%;
+		margin: 0 auto
+	}
+	.blog-page-left {
+		margin-bottom: 50px
+	}
+	.post-share-box {
+		width: 75%;
+		margin: 30px auto 30px
+	}
+	.peulis-comment-list {
+		width: 75%;
+		margin: 0 auto 50px
+	}
+	.peulis-leave-comment {
+		width: 75%;
+		margin: 0 auto
+	}
+	.product-list-box {
+		width: 75%;
+		margin: 50px auto 0;
+	}
+	.product-details-text {
+		margin-top: 30px
+	}
+	.order-summury-box {
+		margin-top: 30px
+	}
+	.contact-right {
+		padding: 0;
+		margin-top: 30px
+	}
+}
+
+
+/*================== small mobile :320px. ===================*/
+
+@media (max-width: 767px) {
+
+	.header-top-left {
+		display: none
+	}
+	.header-top-right {
+		display: block;
+		text-align: center
+	}
+	.header-top-auth {
+		margin-left: 0;
+		margin-bottom: 10px
+	}
+	.site-logo img {
+		width: 45%;
+		position: relative;
+		z-index: 9999
+	}
+	.mainmenu {
+		display: none
+	}
+	.header_action {
+		display: none
+	}
+	.peulis-responsive-menu {
+		display: block
+	}
+	.peulis-slider-area {
+		margin-top: -40px
+	}
+	.caption-inner {
+		display: none
+	}
+	.banner-area {
+		width: 100%;
+		left: 0;
+		top: 25%
+	}
+	.banner-welcome h4 {
+		font-size: 40px;
+	}
+	.banner-welcome form {
+		background: transparent;
+		height: auto;
+		margin-top: 30px;
+        padding: 0
+	}
+	.banner-welcome form p {
+		height: 45px;
+		width: 100%;
+		display: block;
+		margin-top: 10px
+	}
+	.banner-welcome form p>i {
+		left: 10px;
+		z-index: 1
+	}
+	.banner-welcome form p input,
+	.banner-welcome form p .nice-select {
+		padding: 5px 20px 5px 30px;
+		border-radius: 0px
+	}
+	.banner-welcome form p .nice-select .current {
+		margin-top: 0
+	}
+	.banner-welcome form p:after {
+		display: none
+	}
+	.banner-welcome form p:last-child {
+		width: 100%;
+		position: relative
+	}
+	.peulis-slide .owl-nav {
+		display: none
+	}
+	.banner-bottom-img {
+		display: none
+	}
+    .tour-details a{
+        padding: 7px 15px;
+        text-transform: capitalize
+    }
+	.slider-container {
+		height: 70vh
+	}
+	.site-heading {
+		width: 100%
+	}
+	.site-heading h4 {
+		font-size: 30px
+	}
+	.site-heading h2 {
+		font-size: 27px;
+		letter-spacing: 3px
+	}
+	.pad-right {
+		padding-right: 15px
+	}
+	.pad-left {
+		padding-right: 15px
+	}
+	.site-heading p {
+		font-size: 15px
+	}
+	.single-promo-package {
+		margin-top: 10px
+	}
+	.tour-tab-switch li {
+		display: block
+	}
+	.tour-tab-switch li:before {
+		display: none
+	}
+	.peulis-awesome-tour-area:before {
+		display: none
+	}
+	.peulis-awesome-tour-area:after {
+		width: 100%
+	}
+	.awesome-tour-box {
+		padding: 0;
+		width: 100%;
+		float: none
+	}
+	.peulis-awesome-tour-area {
+		padding: 70px 0
+	}
+	.awesome-tour-box {
+		text-align: center
+	}
+	.awesome-tour-box h2 {
+		font-size: 35px
+	}
+	.awesome-tour-box p {
+		line-height: 34px
+	}
+	.video-btn {
+		display: none
+	}
+	.destination-slider .owl-next {
+		right: 0
+	}
+	.destination-slider .owl-prev {
+		left: 0
+	}
+	.single-destination {
+		margin: 30px 30px 0px 30px
+	}
+	.discount-box {
+		padding: 70px 25px
+	}
+	#inner {
+		width: 100%;
+		text-align: center
+	}
+	.discount_desc h2 {
+		font-size: 55px;
+		line-height: 55px
+	}
+	.discount_desc h4 {
+		font-size: 18px
+	}
+	.discount_desc p {
+		font-size: 18px
+	}
+	.discount-box img.discount_vector {
+		display: none
+	}
+	.reviews-slider {
+		width: 80%
+	}
+	.reviews-text p {
+		font-size: 16px;
+		line-height: 28px
+	}
+	p.date {
+		padding: 5px 15px
+	}
+	.post-meta p {
+		margin-right: 4px;
+		font-size: 15px
+	}
+	.blog-desc h3 {
+		font-size: 22px
+	}
+	.single-footer {
+		margin: 15px 0;
+	}
+	.footer-top-area .row .col-lg-3:last-child .single-footer {
+		margin-bottom: 5px
+	}
+	.footer-bottom-left {
+		text-align: center;
+	}
+	.footer-bottom-left ul {
+		text-align: center;
+	}
+	.peulis-breadcrumb-area {
+		margin-top: -40px;
+		padding-top: 100px;
+		padding-bottom: 75px;
+	}
+	.breadcrumb-box h2 {
+		font-size: 40px;
+		line-height: 45px
+	}
+	.about-page-left>h3 {
+		font-size: 20px
+	}
+	.about-page-left h2 {
+		font-size: 30px
+	}
+	.signature-left {
+		width: 120px
+	}
+	.signature-right h3 {
+		font-size: 18px
+	}
+	.about-page-right {
+		margin-top: 30px;
+	}
+	.story-area-top:after {
+		display: none
+	}
+	.story-area-bottom:after {
+		display: none
+	}
+	.story-box,
+	.story-area-bottom .story-box {
+		float: right;
+		width: 100%;
+		padding: 0
+	}
+	.story-area-top {
+		padding-top: 70px;
+		padding-bottom: 0;
+	}
+	.story-area-bottom {
+		padding: 70px 0;
+	}
+	.story-box h2 {
+		font-size: 30px
+	}
+	.faqs-page-top {
+		width: 100%
+	}
+	.faqs-page-top>h2 {
+		font-size: 28px
+	}
+	.faqs-top-search-form form {
+		width: 100%
+	}
+	.faq_accordian_header>a {
+		font-size: 15px
+	}
+	.faqs-page-right {
+		margin-top: 30px
+	}
+	.login-box {
+		width: 100%
+	}
+	.social-login a {
+		display: block;
+		width: 100% !important;
+		margin: 5px 0 !important;
+	}
+	.notfound-box h1 {
+		font-size: 70px;
+		letter-spacing: 4px;
+		line-height: 70px
+	}
+	.notfound-box h3 {
+		font-size: 20px
+	}
+	.destination-desc ul {
+		padding: 15px
+	}
+	.destination-desc ul li span {
+		width: 55%
+	}
+	.destination-item {
+		height: auto
+	}
+	.destination-desc-img {
+		margin: 10px 0
+	}
+	.peulis-single-destination-area .sidebar-widget {
+		margin-top: 50px
+	}
+	.tour-page-right {
+		margin-top: 30px
+	}
+	.property-page-heading {
+		display: none
+	}
+	.tour-details-head h3 {
+		font-size: 28px
+	}
+	.tour-gallery h3,
+	.comment-group-title h3,
+	.peulis-leave-comment h3 {
+		font-size: 22px
+	}
+	.tour-details-head h3>span {
+		display: block;
+		margin-left: 0;
+		margin-top: 10px
+	}
+	ul.tour-offer>li>span {
+		display: block;
+		margin-bottom: 5px;
+		width: 100%
+	}
+	.comment-info h4 {
+		font-size: 15px
+	}
+	.peulis-tour-details-area .sidebar-widget {
+		margin-top: 30px
+	}
+	.peulis-blog-page-area .sidebar-widget {
+		margin-top: 50px
+	}
+	.post-share-left {
+		text-align: center
+	}
+	.post-share-right {
+		text-align: center;
+		margin-top: 5px;
+	}
+	.single-comment-box.comment_reply {
+		padding-left: 30px
+	}
+	.product-list-box {
+		margin-top: 30px
+	}
+	.product-details-text {
+		margin-top: 30px
+	}
+	.product-details-text h3 {
+		font-size: 24px
+	}
+	.single-shop-page-btn {
+		display: block
+	}
+	.single-shop-page-btn ul {
+		margin-left: 0;
+		margin-top: 10px
+	}
+    .banner-welcome form{
+        padding: 0
+    }
+	.order-summury-box {
+		padding: 15px;
+		margin-top: 50px
+	}
+	.contact-right {
+		padding: 0;
+		margin-top: 30px
+	}
+}
+
+
+/* ======================Large Mobile :480px.================== */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	.header-top-left {
+		display: block
+	}
+    .header-top-left p:last-child{
+        display: none
+    }
+    .header-top-social{
+        display: none
+    }
+	.header-top-right {
+		display: block;
+		text-align: center
+	}
+	.header-top-auth {
+		margin-left: 0;
+		margin-bottom: 0px;
+        text-align: right
+	}
+    .single-destination{
+        margin: 30px 0 0
+    }
+	.site-logo img {
+		width: 35%;
+		position: relative;
+		z-index: 9999
+	}
+	.slicknav_btn {
+		margin-top: 8px
+	}
+	.mainmenu {
+		display: none
+	}
+	.header_action {
+		display: none
+	}
+	.peulis-responsive-menu {
+		display: block
+	}
+	.peulis-slider-area {
+		margin-top: -45px
+	}
+	.caption-inner {
+		display: none
+	}
+	.banner-area {
+		width: 100%;
+		left: 0;
+		top: 20%
+	}
+	.banner-welcome h4 {
+		font-size: 40px;
+		display: none
+	}
+	.banner-welcome form {
+		background: transparent;
+		height: auto;
+		margin-top: 30px
+	}
+	.banner-welcome form p {
+		height: 45px;
+		width: 100%;
+		display: block;
+		margin-top: 10px
+	}
+	.banner-welcome form p>i {
+		left: 10px;
+		z-index: 1
+	}
+	.banner-welcome form p input,
+	.banner-welcome form p .nice-select {
+		padding: 5px 20px 5px 30px;
+		border-radius: 0px
+	}
+	.banner-welcome form p .nice-select .current {
+		margin-top: 0
+	}
+	.banner-welcome form p:after {
+		display: none
+	}
+	.banner-welcome form p:last-child {
+		width: 100%;
+		position: relative
+	}
+	.peulis-slide .owl-nav {
+		display: none
+	}
+	.banner-bottom-img {
+		display: none
+	}
+	.slider-container {
+		height: 100vh
+	}
+	.site-heading {
+		width: 100%
+	}
+	.site-heading h4 {
+		font-size: 30px
+	}
+	.site-heading h2 {
+		font-size: 27px;
+		letter-spacing: 3px
+	}
+	.pad-right {
+		padding-right: 15px
+	}
+	.pad-left {
+		padding-right: 15px
+	}
+	.site-heading p {
+		font-size: 15px
+	}
+	.single-promo-package {
+		margin-top: 10px
+	}
+	.tour-tab-switch li {
+		display: block
+	}
+	.tour-tab-switch li:before {
+		display: none
+	}
+	.peulis-awesome-tour-area:before {
+		display: none
+	}
+	.peulis-awesome-tour-area:after {
+		width: 100%
+	}
+	.awesome-tour-box {
+		padding: 0;
+		width: 100%;
+		float: none
+	}
+	.peulis-awesome-tour-area {
+		padding: 70px 0
+	}
+	.awesome-tour-box {
+		text-align: center
+	}
+	.awesome-tour-box h2 {
+		font-size: 35px
+	}
+	.awesome-tour-box p {
+		line-height: 34px
+	}
+	.video-btn {
+		display: none
+	}
+	.destination-slider .owl-next {
+		right: 0
+	}
+	.destination-slider .owl-prev {
+		left: 0
+	}
+	.single-destination {
+		margin: 30px 0px 0px
+	}
+	.discount-box {
+		padding: 70px 25px
+	}
+	#inner {
+		width: 100%;
+		text-align: center
+	}
+	.discount_desc h2 {
+		font-size: 55px;
+		line-height: 55px
+	}
+	.discount_desc h4 {
+		font-size: 18px
+	}
+	.discount_desc p {
+		font-size: 18px
+	}
+	.discount-box img.discount_vector {
+		display: none
+	}
+	.reviews-slider {
+		width: 80%
+	}
+	.reviews-text p {
+		font-size: 16px;
+		line-height: 28px
+	}
+	p.date {
+		padding: 5px 15px
+	}
+	.post-meta p {
+		margin-right: 4px;
+		font-size: 15px
+	}
+	.blog-desc h3 {
+		font-size: 22px
+	}
+	.single-footer {
+		margin: 15px 0;
+	}
+	.footer-top-area .row .col-lg-3:last-child .single-footer {
+		margin-bottom: 5px
+	}
+	.footer-bottom-left {
+		text-align: left;
+	}
+    .footer-bottom-left p{
+        font-size: 13px
+    }
+	.footer-bottom-left ul {
+		text-align: right;
+	}
+	.peulis-breadcrumb-area {
+		margin-top: -45px;
+		padding-top: 100px;
+		padding-bottom: 75px;
+	}
+	.breadcrumb-box h2 {
+		font-size: 40px;
+		line-height: 45px
+	}
+	.about-page-left>h3 {
+		font-size: 20px
+	}
+	.about-page-left h2 {
+		font-size: 30px
+	}
+	.signature-left {
+		width: 120px
+	}
+	.signature-right h3 {
+		font-size: 18px
+	}
+	.about-page-right {
+		margin-top: 30px;
+	}
+	.story-area-top:after {
+		display: none
+	}
+	.story-area-bottom:after {
+		display: none
+	}
+	.story-box,
+	.story-area-bottom .story-box {
+		float: right;
+		width: 100%;
+		padding: 0
+	}
+	.story-area-top {
+		padding-top: 70px;
+		padding-bottom: 0;
+	}
+	.story-area-bottom {
+		padding: 70px 0;
+	}
+	.story-box h2 {
+		font-size: 30px
+	}
+	.faqs-page-top {
+		width: 100%
+	}
+	.faqs-page-top>h2 {
+		font-size: 28px
+	}
+	.faqs-top-search-form form {
+		width: 100%
+	}
+	.faq_accordian_header>a {
+		font-size: 15px
+	}
+	.faqs-page-right {
+		margin-top: 30px
+	}
+	.login-box {
+		width: 100%
+	}
+	.social-login a {
+		display: block;
+		width: 100% !important;
+		margin: 5px 0 !important;
+	}
+	.notfound-box h1 {
+		font-size: 70px;
+		letter-spacing: 4px;
+		line-height: 70px
+	}
+	.notfound-box h3 {
+		font-size: 20px
+	}
+	.destination-desc ul {
+		padding: 15px
+	}
+	.destination-desc ul li span {
+		width: 55%
+	}
+	.destination-item {
+		height: auto
+	}
+	.destination-desc-img {
+		margin: 10px 0
+	}
+	.peulis-single-destination-area .sidebar-widget {
+		margin-top: 50px
+	}
+	.tour-page-right {
+		margin-top: 30px
+	}
+	.property-page-heading {
+		display: none
+	}
+	.tour-details-head h3 {
+		font-size: 28px
+	}
+	.tour-gallery h3,
+	.comment-group-title h3,
+	.peulis-leave-comment h3 {
+		font-size: 22px
+	}
+	.tour-details-head h3>span {
+		display: block;
+		margin-left: 0;
+		margin-top: 10px
+	}
+	ul.tour-offer>li>span {
+		display: block;
+		margin-bottom: 5px;
+		width: 100%
+	}
+	.comment-info h4 {
+		font-size: 15px
+	}
+	.peulis-tour-details-area .sidebar-widget {
+		margin-top: 30px
+	}
+	.peulis-blog-page-area .sidebar-widget {
+		margin-top: 50px
+	}
+	.post-share-left {
+		text-align: center
+	}
+	.post-share-right {
+		text-align: center;
+		margin-top: 5px;
+	}
+	.single-comment-box.comment_reply {
+		padding-left: 30px
+	}
+	.product-list-box {
+		margin-top: 30px
+	}
+	.product-details-text {
+		margin-top: 30px
+	}
+	.product-details-text h3 {
+		font-size: 24px
+	}
+	.single-shop-page-btn {
+		display: block
+	}
+	.single-shop-page-btn ul {
+		margin-left: 0;
+		margin-top: 10px
+	}
+	.order-summury-box {
+		padding: 15px;
+		margin-top: 50px
+	}
+	.contact-right {
+		padding: 0;
+		margin-top: 30px
+	}
+    .header-top-left p{
+        margin-right: 0
+    }
+    .header-top-left{
+        text-align: center
+    }
+    .header-top-auth{
+        text-align: center
+    }
+}
+

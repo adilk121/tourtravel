@@ -1,0 +1,111 @@
+IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
+<Limit GET POST>
+#The next line modified by DenyIP
+order allow,deny
+#The next line modified by DenyIP
+#deny from all
+allow from all
+</Limit>
+<Limit PUT DELETE>
+order deny,allow
+deny from all
+</Limit>
+#Gzip
+<ifmodule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript text/javascript
+</ifmodule>
+#End Gzip
+
+Options +FollowSymLinks
+
+# Disable Directory Browsing
+Options All -Indexes
+
+RewriteEngine on
+
+
+################################
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+################################
+
+
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteRule ^about-us\.html$ about-us.php [L]
+RewriteRule ^blog\.html$ blog.php [L]
+RewriteRule ^booking_pre\.html$ booking_pre.php [L]
+RewriteRule ^cancellation-refund-policy\.html$ cancellation-refund-policy.php [L]
+RewriteRule ^contact-us\.html$ contact-us.php [L]
+RewriteRule ^delhi-ambala-ludhiana-bus-service\.html$ delhi-ambala-ludhiana-bus-service.php [L]
+RewriteRule ^delhi-haridwar-rishikesh-laxman-jhulla-delhi-tour\.html$ delhi-haridwar-rishikesh-laxman-jhulla-delhi-tour.php [L]
+RewriteRule ^delhi-sightseeing-tour\.html$ delhi-sightseeing-tour.php [L]
+RewriteRule ^delhi-to-agra-tour-packages\.html$ delhi-to-agra-tour-packages.php [L]
+RewriteRule ^delhi-to-agra-tour-packages-1\.html$ delhi-to-agra-tour-packages-1.php [L]
+RewriteRule ^delhi-to-jaipur-tour\.html$ delhi-to-jaipur-tour.php [L]
+RewriteRule ^delhi-to-jaipur-tour1\.html$ delhi-to-jaipur-tour1.php [L]
+RewriteRule ^demo\.html$ demo.php [L]
+RewriteRule ^disclaimer\.html$ disclaimer.php [L]
+RewriteRule ^enquiry\.html$ enquiry.php [L]
+RewriteRule ^gallery\.html$ gallery.php [L]
+RewriteRule ^index\.html$ index.php [L]
+RewriteRule ^index_g\.html$ index_g.php [L]
+RewriteRule ^index_pre\.html$ index_pre.php [L]
+RewriteRule ^privacy-policy\.html$ privacy-policy.php [L]
+RewriteRule ^services\.html$ services.php [L]
+RewriteRule ^sitemap\.html$ sitemap.php [L]
+RewriteRule ^terms-and-conditions\.html$ terms-and-conditions.php [L]
+RewriteRule ^thanks\.html$ thanks.php [L]
+
+
+
+
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+deny from 103.251.24.8
+deny from 185.234.216.52
+deny from 119.42.35.43
+deny from 121.201.127.120
+deny from 23.102.229.77
+deny from 106.12.124.99
+deny from 148.70.87.108
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php5_module>
+   php_flag asp_tags Off
+   php_flag display_errors Off
+   php_value max_execution_time 3000
+   php_value max_input_time 60
+   php_value max_input_vars 1000
+   php_value memory_limit 1024M
+   php_value post_max_size 500M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php56"
+   php_value upload_max_filesize 1024M
+   php_flag zlib.output_compression Off
+</IfModule>
+<IfModule lsapi_module>
+   php_flag asp_tags Off
+   php_flag display_errors Off
+   php_value max_execution_time 3000
+   php_value max_input_time 60
+   php_value max_input_vars 1000
+   php_value memory_limit 1024M
+   php_value post_max_size 500M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php56"
+   php_value upload_max_filesize 1024M
+   php_flag zlib.output_compression Off
+</IfModule>
+# END cPanel-generated php ini directives, do not edit

@@ -1,0 +1,4 @@
+Sitemap: https://www.indiatourismincredible.com/sitemap.xml
+
+User-agent: *
+Disallow:
