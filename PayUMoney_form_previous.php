@@ -17,7 +17,7 @@
 $MERCHANT_KEY = "J14ZeMbZ";
 
 // Merchant Salt as provided by Payu
-$SALT = "vflVLYUYMG";
+$SALT = "45";
 
 // End point - change to https://secure.payu.in for LIVE mode
 $PAYU_BASE_URL = "https://secure.payu.in";
