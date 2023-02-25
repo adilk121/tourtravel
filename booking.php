@@ -1,4 +1,4 @@
-<?php date_default_timezone_set('Asia/Kolkata'); ?>
+<?php date_default_timezone_set('Asia/Kolkata'); // comment ?>
 <!doctype html>
 <html class="no-js" lang="en">
 <?php include("dynamic_values.php"); ?>
