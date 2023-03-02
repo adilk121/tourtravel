@@ -1,4 +1,5 @@
 <?php
+//ob start for session
 ob_start();
  if(isset($_POST['EnqSubmit'])){
   @extract($_POST);
