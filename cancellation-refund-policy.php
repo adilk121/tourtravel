@@ -114,7 +114,7 @@
     </main>
     
     
-      <?php include("service-box-section.php"); ?>
+      <?php include("service-box-section.php"); // New Policy Updated ?>
  <?php include("site-footer.php"); ?>
 </div>
 <script src="assets/js/vendors/jquery.min.js"></script>
